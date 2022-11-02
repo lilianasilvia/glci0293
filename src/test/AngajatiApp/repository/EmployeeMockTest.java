@@ -25,7 +25,7 @@ class EmployeeMockTest {
         employee.setSalary(1000.00);
 
         boolean bool = employeeMock.addEmployee(employee);
-        assertTrue(bool, "true");
+        Assertions.assertTrue(bool, "true");
     }
 
     @Test
@@ -39,7 +39,7 @@ class EmployeeMockTest {
         e2.setSalary(999.00);
 
         boolean bool = employeeMock.addEmployee(e2);
-        assertFalse(bool,"false");
+        Assertions.assertFalse(bool,"false");
 
     }
 
@@ -54,7 +54,7 @@ class EmployeeMockTest {
         e3.setSalary(3000.00);
 
         boolean bool = employeeMock.addEmployee(e3);
-        assertFalse(bool,"false");
+        Assertions.assertFalse(bool,"false");
 
     }
 
@@ -69,7 +69,7 @@ class EmployeeMockTest {
         e4.setSalary(1500.00);
 
         boolean bool = employeeMock.addEmployee(e4);
-        assertFalse(bool,"false");
+        Assertions.assertFalse(bool,"false");
 
     }
 
@@ -84,7 +84,7 @@ class EmployeeMockTest {
         e4.setSalary(1000.00);
 
         boolean bool = employeeMock.addEmployee(e4);
-        assertFalse(bool,"false");
+        Assertions.assertFalse(bool,"false");
 
     }
 
@@ -99,7 +99,7 @@ class EmployeeMockTest {
         e4.setSalary(1001.00);
 
         boolean bool = employeeMock.addEmployee(e4);
-        assertTrue(bool, "true");
+        Assertions.assertTrue(bool, "true");
 
     }
 
