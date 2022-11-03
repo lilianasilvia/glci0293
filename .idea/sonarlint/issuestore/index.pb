@@ -1,6 +1,4 @@
 
-S
-#src/test/java/glci0293/AppTest.java,7\d\7dcbee5a81774506308250c54a2f31c756cf6735
 c
 3src/main/java/AngajatiApp/model/SalaryCriteria.java,1\9\19b403ea49f69038252b855c153ae9b1f998d476
 `
@@ -13,7 +11,13 @@ u
 Esrc/main/java/AngajatiApp/repository/EmployeeRepositoryInterface.java,c\c\cccaffbbf55c1db6f58a8220265c89088788fa19
 e
 5src/main/java/AngajatiApp/model/DidacticFunction.java,9\d\9d8faf5d3b457c8aade0f175e7b55f7d644bb2fc
-a
-1src/test/java/AngajatiApp/model/EmployeeTest.java,7\a\7a7b2c6894db39b57822296d3f7c36db9032c932
 f
 6src/main/java/AngajatiApp/repository/EmployeeImpl.java,2\d\2da56fa1af158bee80e4f36a57169a015909103d
+j
+:src/main/java/AngajatiApp/validator/EmployeeValidator.java,2\9\298ad41e6bc555b0d1f92213a0b670c13e9b7ffe
+l
+<src/main/java/AngajatiApp/controller/EmployeeController.java,2\b\2b5cb794de2eb360036258ae1bf2c94e23d1a165
+\
+,src/main/java/AngajatiApp/main/StartApp.java,f\e\fe08930b85d3fb3eb1d137c34aaeea2705094577
+O
+src/main/java/glci0293/App.java,b\3\b3624ffa8eea58fe6c6e90d4dd3f67ce0539cedd

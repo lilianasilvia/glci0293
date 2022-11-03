@@ -3,6 +3,7 @@ package AngajatiApp.repository;
 import AngajatiApp.model.DidacticFunction;
 import AngajatiApp.model.Employee;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -103,5 +104,26 @@ class EmployeeMockTest {
 
     }
 
+    @Test
+    void modifyEmployeeFunction_TC01(){
+        Employee expectedEmployee = new Employee("Gicu","Ionescu","1234567890876",DidacticFunction.TEACHER,2500d);
+        expectedEmployee.setId( employeeMock.getEmployeeList().get(2).getId());
+
+        Employee currentEmployee = employeeMock.getEmployeeList().get(2);
+        employeeMock.modifyEmployeeFunction(currentEmployee,DidacticFunction.TEACHER );
+
+        boolean bool = currentEmployee.getFunction().equals(expectedEmployee.getFunction());
+
+        assertTrue(bool, "true");
+    }
+
+    @Test
+    void modifyEmployeeFunction_TC02(){
+
+        Employee currentEmployee = null;
+        employeeMock.modifyEmployeeFunction(currentEmployee,DidacticFunction.ASISTENT);
+
+        assertNull(currentEmployee);
+    }
 
 }
